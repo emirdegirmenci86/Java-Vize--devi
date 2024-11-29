@@ -6,8 +6,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Örnek veriler oluşturma
-        Film film1 = new Film("Inception", 148, "Bilim Kurgu");
-        Film film2 = new Film("Titanic", 195, "Romantik");
+        Film film1 = new Film("Aksteriks ve Oberiks", 148, "Bilim Kurgu");
+        Film film2 = new Film("Erdal ile Ece", 195, "Romantik");
 
         Salon salon1 = new Salon(1, "Salon 1");
         salon1.setOynatilanFilm(film1);
@@ -15,8 +15,8 @@ public class Main {
         Salon salon2 = new Salon(2, "Salon 2");
         salon2.setOynatilanFilm(film2);
 
-        Musteri musteri1 = new Musteri(1, "Ahmet");
-        Musteri musteri2 = new Musteri(2, "Ayşe");
+        Musteri musteri1 = new Musteri(1, "Tuna");
+        Musteri musteri2 = new Musteri(2, "Kerim");
 
         salon1.musteriEkle(musteri1);
         salon2.musteriEkle(musteri2);
