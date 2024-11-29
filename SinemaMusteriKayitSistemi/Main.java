@@ -6,8 +6,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Örnek veriler oluşturma
-        Film film1 = new Film("Aksteriks ve Oberiks", 148, "Bilim Kurgu");
-        Film film2 = new Film("Erdal ile Ece", 195, "Romantik");
+        Film film1 = new Film("Aksteriks ve Oberiks", 331, "Komedimsi");
+        Film film2 = new Film("Erdal ile Ece", 1769, "Romantik");
 
         Salon salon1 = new Salon(1, "Salon 1");
         salon1.setOynatilanFilm(film1);
